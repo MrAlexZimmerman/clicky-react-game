@@ -47,7 +47,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Let's Play 90's Clicky Game!!</h1>
+          <h1 className="App-title">Let's Play 2019 Oscar Movie Clicky Game!!</h1>
           <h3 className="App-intro">
             <p>Click on an image to earn points, but don't click on an image more than once!</p>
             <p className="score">Score: {this.state.score} | TopScore: {this.state.topScore}</p>
@@ -69,7 +69,7 @@ class App extends Component {
         />
         <footer className="footer">
           <div className="container">
-            <span className="text-muted">&copy;Candace - Clicky Game - React App.</span>
+            <span className="text-muted">&copy;Clicky Game - React App.</span>
           </div>
         </footer>
       </div>
